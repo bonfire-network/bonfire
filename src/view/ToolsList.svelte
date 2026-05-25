@@ -11,9 +11,9 @@
 		name?: string;
 		select?: boolean;
 		multiselect?: boolean;
-		selected: Model.ToolId[];
+		selected?: Model.ToolId[];
 	};
-	let { tools, name, fullWidth, select, multiselect, selected = $bindable() }: Props = $props();
+	let { tools, name, fullWidth, select, multiselect, selected = $bindable([]) }: Props = $props();
 	let selectedTools = $state<Model.ToolId[]>(multiselect ? selected : []);
 	let selectedTool = $state<Model.ToolId | null>(
 		select && selected.length > 0 ? selected[0] : null

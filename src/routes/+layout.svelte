@@ -22,6 +22,7 @@
 	setStores({ valors: valorStore, tools: toolStore, toolTypes: toolTypeStore });
 
 	onMount(() => {
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		const { data } = supabase.auth.onAuthStateChange((_, newSession) => {
 			invalidate('supabase:auth');
 		});
@@ -53,6 +54,13 @@
 			margin: 0;
 			overflow-x: hidden;
 			width: 100vw;
+		}
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			list-style: none;
 		}
 	</style>
 </svelte:head>

@@ -1,6 +1,6 @@
 {
 	"name": "project-bonfire",
-	"license": "MPL-2.0",
+	"license": "GPL-3.0-or-later",
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",

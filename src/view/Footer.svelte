@@ -1,4 +1,5 @@
 <script lang="ts">
+	/* eslint-disable svelte/no-at-html-tags */
 	import { _ } from 'svelte-i18n';
 	import { mdiGithub } from '@mdi/js';
 	import SvgIcon from './SvgIcon.svelte';
@@ -8,7 +9,10 @@
 <footer class="footer mdc-elevation--z24">
 	<Stack gap={0}>
 		<p>{@html $_('footer_content')}</p>
-		<p class="license">{@html $_('license')}</p>
+		<p class="license">
+			{@html $_('license')}<br />
+			{@html $_('burningman_disclaimer')}
+		</p>
 	</Stack>
 	<a href="https://github.com/Continuities/bonfire" target="_blank" class="github"
 		><SvgIcon path={mdiGithub} /></a

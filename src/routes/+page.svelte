@@ -1,4 +1,5 @@
 <script lang="ts">
+	/* eslint-disable svelte/no-at-html-tags */
 	import { _ } from 'svelte-i18n';
 	import Paper, { Title, Content } from '@smui/paper';
 	import PageInfo from '@view/PageInfo.svelte';
@@ -32,14 +33,7 @@
 
 <Stack gap={2}>
 	<Paper>
-		<Title>{$_('did_you_know')}</Title>
-		<Content>
-			<p>{@html $_('did_you_know_content')}</p>
-		</Content>
-	</Paper>
-
-	<Paper>
-		<Title>{$_('the_openburn_project')}</Title>
+		<Title>{$_('mission')}</Title>
 		<Content>
 			<p>{@html $_('what_is_openburn_content')}</p>
 			<p>{@html $_('community_needs')}</p>
