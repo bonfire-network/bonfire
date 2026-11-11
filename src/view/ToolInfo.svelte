@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { resolveText } from '$lib/i18n';
+	import { resolveText } from '#lib/i18n';
 	import { _, locale } from 'svelte-i18n';
 	import ToolTypeList from './ToolTypeList.svelte';
 	import Stack from './Stack.svelte';

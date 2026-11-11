@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ChipInput from '@smui-extra/chip-input';
-	import { defaultLocale, resolveText } from '$lib/i18n';
+	import { defaultLocale, resolveText } from '#lib/i18n';
 	import { _, locale } from 'svelte-i18n';
 	import { v4 as uuid } from 'uuid';
 	import { Text } from '@smui/list';

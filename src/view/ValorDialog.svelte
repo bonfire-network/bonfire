@@ -4,7 +4,7 @@
 
 	import SvgIcon from './SvgIcon.svelte';
 	import { mdiClose } from '@mdi/js';
-	import { resolveText } from '$lib/i18n';
+	import { resolveText } from '#lib/i18n';
 	import { _, locale } from 'svelte-i18n';
 	import CommunityList from './CommunityList.svelte';
 

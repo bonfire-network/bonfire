@@ -1,10 +1,10 @@
 import { browser } from '$app/environment';
-import '$lib/i18n'; // Import to initialize. Important :)
+import '#lib/i18n'; // Import to initialize. Important :)
 import { locale, waitLocale } from 'svelte-i18n';
 import type { LayoutLoad } from './$types';
 import { createBrowserClient, createServerClient } from '@supabase/ssr';
 import { PUBLIC_SUPABASE_PUBLISHABLE_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
-import { doesPathRequireAuth, LOGIN_PATH } from '$lib/routes';
+import { doesPathRequireAuth, LOGIN_PATH } from '#lib/routes';
 import { redirect } from '@sveltejs/kit';
 
 export const load: LayoutLoad = async ({ url, data, depends }) => {

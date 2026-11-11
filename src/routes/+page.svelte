@@ -6,7 +6,7 @@
 	import ValueList from '@view/ValorList.svelte';
 	import ValorDialog from '@view/ValorDialog.svelte';
 	import Stack from '@view/Stack.svelte';
-	import { getStores } from '$lib/context';
+	import { getStores } from '#lib/context';
 	import ToolsList from '@view/ToolsList.svelte';
 	import CommunityList from '@view/CommunityList.svelte';
 	import Button from '@smui/button';

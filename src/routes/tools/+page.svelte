@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getStores } from '$lib/context';
+	import { getStores } from '#lib/context';
 	import Paper, { Content } from '@smui/paper';
 	import PageInfo from '@view/PageInfo.svelte';
 	import ToolsList from '@view/ToolsList.svelte';

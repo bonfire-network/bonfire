@@ -6,7 +6,7 @@
 	import Stack from '@view/Stack.svelte';
 	import { _ } from 'svelte-i18n';
 	import { goto } from '$app/navigation';
-	import { CommunityFilterURL } from '$lib/filter.js';
+	import { CommunityFilterURL } from '#lib/filter.js';
 	import { page } from '$app/state';
 
 	let { data } = $props();

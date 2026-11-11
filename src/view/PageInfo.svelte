@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import image from '$lib/assets/full-logo-placeholder.png';
-	import favicon from '$lib/assets/favicon.png';
+	import image from '#lib/assets/full-logo-placeholder.png';
+	import favicon from '#lib/assets/favicon.png';
 	type Props = {
 		title: string;
 		description?: string;

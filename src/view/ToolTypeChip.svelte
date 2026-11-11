@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { resolveText } from '$lib/i18n';
+	import { resolveText } from '#lib/i18n';
 	import Chip, { Text } from '@smui/chips';
 	import { locale } from 'svelte-i18n';
 

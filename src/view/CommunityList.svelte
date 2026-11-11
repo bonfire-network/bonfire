@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { resolveText } from '$lib/i18n';
+	import { resolveText } from '#lib/i18n';
 	import DataTable, { Body, Row, Cell } from '@smui/data-table';
 	import ValorList from '@view/ValorList.svelte';
 	import { _, locale } from 'svelte-i18n';
 	import Location from './Location.svelte';
-	import { parseLocation } from '$lib/location';
+	import { parseLocation } from '#lib/location';
 	type Props = {
 		communities: Model.Community[];
 		fullWidth?: boolean;

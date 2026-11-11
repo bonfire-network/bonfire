@@ -2,9 +2,9 @@
 	import { _ } from 'svelte-i18n';
 	import LocationPicker from './LocationPicker.svelte';
 	import Stack from './Stack.svelte';
-	import { locationsEqual } from '$lib/location';
+	import { locationsEqual } from '#lib/location';
 	import ToolPicker from './ToolPicker.svelte';
-	import { getStores } from '$lib/context';
+	import { getStores } from '#lib/context';
 	import ValorPicker from './ValorPicker.svelte';
 
 	type Props = {

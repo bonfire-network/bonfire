@@ -1,10 +1,18 @@
+import adapter from '@sveltejs/adapter-auto';
 import devtoolsJson from 'vite-plugin-devtools-json';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 import path from 'path';
 
 export default defineConfig({
-	plugins: [sveltekit(), devtoolsJson()],
+	plugins: [
+		sveltekit({
+			adapter: adapter(),
+			alias: {
+				'@view/*': './src/view/*',
+			}
+		}),
+		devtoolsJson()],
 	resolve: {
 		alias: {
 			'@view': path.resolve('./src/view')

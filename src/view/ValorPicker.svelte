@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Autocomplete from '@smui-extra/autocomplete';
-	import { getStores } from '$lib/context';
+	import { getStores } from '#lib/context';
 	import Stack from '@view/Stack.svelte';
 	import { _, locale } from 'svelte-i18n';
-	import { defaultLocale, resolveText } from '$lib/i18n';
+	import { defaultLocale, resolveText } from '#lib/i18n';
 	import { Text } from '@smui/list';
 	import Textfield from '@smui/textfield';
 	import { v4 as uuid } from 'uuid';

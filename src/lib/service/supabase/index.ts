@@ -8,7 +8,7 @@
 import { createServerClient } from '@supabase/ssr';
 import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_PUBLISHABLE_KEY } from '$env/static/public';
 import { redirect, type Handle } from '@sveltejs/kit';
-import { doesPathRequireAuth, LOGIN_PATH } from '$lib/routes';
+import { doesPathRequireAuth, LOGIN_PATH } from '#lib/routes';
 
 const supabase: Handle = async ({ event, resolve }) => {
 	/**

@@ -3,7 +3,7 @@
 	import type { PageProps } from './$types';
 	import { _ } from 'svelte-i18n';
 	import Stack from '@view/Stack.svelte';
-	import { getStores } from '$lib/context';
+	import { getStores } from '#lib/context';
 	import ToolsList from '@view/ToolsList.svelte';
 
 	let { data }: PageProps = $props();

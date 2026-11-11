@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { locationToString } from '$lib/location';
+	import { locationToString } from '#lib/location';
 	import Autocomplete from '@smui-extra/autocomplete';
 	import { City, State, Country } from 'country-state-city';
 

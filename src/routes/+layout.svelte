@@ -4,8 +4,8 @@
 	import LanguageToggle from '@view/LanguageToggle.svelte';
 	import WIPOverlay from '@view/WIPOverlay.svelte';
 	import type { LayoutProps } from './$types';
-	import idstore from '$lib/id-store';
-	import { setStores } from '$lib/context';
+	import idstore from '#lib/id-store';
+	import { setStores } from '#lib/context';
 	import { writable } from 'svelte/store';
 	import { onMount } from 'svelte';
 	import { invalidate, goto } from '$app/navigation';

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { marginStyle } from '$lib/view';
+	import { marginStyle } from '#lib/view';
 	import type { Snippet } from 'svelte';
 
 	type Props = {

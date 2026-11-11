@@ -1,6 +1,6 @@
-import { ToolService, ValorService, CommunityService } from '$lib/service';
-import { middleware } from '$lib/service';
-import BlueprintService from '$lib/service/supabase/blueprint-service';
+import { ToolService, ValorService, CommunityService } from '#lib/service';
+import { middleware } from '#lib/service';
+import BlueprintService from '#lib/service/supabase/blueprint-service';
 import type { Handle } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
 import { locale } from 'svelte-i18n';

@@ -6,7 +6,7 @@
 	import Stack from '@view/Stack.svelte';
 	import { _ } from 'svelte-i18n';
 	import ToolsList from '@view/ToolsList.svelte';
-	import { getStores } from '$lib/context';
+	import { getStores } from '#lib/context';
 
 	const BLUEPRINT_QUESTIONS: Blueprint.BlueprintQuestion[] = [
 		{

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Autocomplete from '@smui-extra/autocomplete';
-	import emojis from '$lib/emojis';
+	import emojis from '#lib/emojis';
 
 	type Props = {
 		value?: String | undefined;

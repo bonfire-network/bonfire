@@ -4,7 +4,7 @@ import { v4 as uuid } from 'uuid';
 import { fail } from '@sveltejs/kit';
 import { locale } from 'svelte-i18n';
 import { get } from 'svelte/store';
-import { CommunityFilter } from '$lib/filter';
+import { CommunityFilter } from '#lib/filter';
 
 type LoadData = {
 	filter: Filter.CommunityFilter;

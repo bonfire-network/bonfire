@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { CommunityFilterURL } from '$lib/filter';
+	import { CommunityFilterURL } from '#lib/filter';
 
 	type Props = {
 		location: Model.Location;
