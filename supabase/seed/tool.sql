@@ -54,7 +54,7 @@ values
   ),
   (
     'volunteer-next',
-    'https://github.com/tohyperborea/volunteer-next',
+    'https://github.com/bonfire-network/volunteer-next',
     'volunteer-next',
     '{
       "en": "volunteer-next is a fully-featured volunteer management system build in collaboration with Project Bonfire. It supports teams, shift signups, notification emails, and more.",
